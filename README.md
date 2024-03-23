@@ -20,4 +20,20 @@ um limite que o circunda e define.
 Serviços de domínio são objetos tratados separadamente, e que trabalham com diversas entidades e agre-
 gados, sempre que são necessários cálculos, execuções de rotinas e muito mais.
 
+## Exemplo
+
+#### Objetos de Valor:
+Nota: Representa uma nota atribuída a uma atividade para um aluno.
+Comentario: Representa um comentário feito pelo professor ou por outros alunos em uma atividade.
+Anexo: Representa um anexo (por exemplo, arquivo) relacionado a uma atividade.
+Endereço: Serve como um objeto de valor em outras entidades, como Professor e Aluno
+
+#### Entidades:
+Professor: Representa um professor com um identificador único, nome e informações de contato.
+Aluno: Representa um aluno com um identificador único, nome e informações de contato.
+
+#### Agregado:
+Atividade: Representa uma atividade que contém notas, comentários e anexos relacionados a ela. Cada atividade é associada a um professor e pode ter vários alunos submetendo trabalho para ela.
+
+
 
