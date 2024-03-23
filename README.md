@@ -23,13 +23,13 @@ gados, sempre que são necessários cálculos, execuções de rotinas e muito ma
 ## Exemplo
 
 #### Objetos de Valor:
-Nota: Representa uma nota atribuída a uma atividade para um aluno. \n
+Nota: Representa uma nota atribuída a uma atividade para um aluno. <br />
 Comentario: Representa um comentário feito pelo professor ou por outros alunos em uma atividade.<br />
-Anexo: Representa um anexo (por exemplo, arquivo) relacionado a uma atividade. \n
-Endereço: Serve como um objeto de valor em outras entidades, como Professor e Aluno \n
+Anexo: Representa um anexo (por exemplo, arquivo) relacionado a uma atividade. <br />
+Endereço: Serve como um objeto de valor em outras entidades, como Professor e Aluno <br />
 
 #### Entidades:
-Professor: Representa um professor com um identificador único, nome e informações de contato. \n
+Professor: Representa um professor com um identificador único, nome e informações de contato. <br />
 Aluno: Representa um aluno com um identificador único, nome e informações de contato.
 
 #### Agregado:
