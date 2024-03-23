@@ -24,7 +24,7 @@ gados, sempre que são necessários cálculos, execuções de rotinas e muito ma
 
 #### Objetos de Valor:
 Nota: Representa uma nota atribuída a uma atividade para um aluno. \n
-Comentario: Representa um comentário feito pelo professor ou por outros alunos em uma atividade. \n
+Comentario: Representa um comentário feito pelo professor ou por outros alunos em uma atividade.<br />
 Anexo: Representa um anexo (por exemplo, arquivo) relacionado a uma atividade. \n
 Endereço: Serve como um objeto de valor em outras entidades, como Professor e Aluno \n
 
